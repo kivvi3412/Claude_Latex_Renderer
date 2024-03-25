@@ -2,11 +2,18 @@
 Fixed an issue where claude.ai could not be rendered using Latex
 
 ## Demo
-https://github.com/kivvi3412/Claude_Latex_Renderer/assets/64115433/b5a41956-b8ec-4682-b48f-1a293f48410a
+Click the button to render
+
+
+https://github.com/kivvi3412/Claude_Latex_Renderer/assets/64115433/97af68a0-96de-4ab8-b1a7-156dbfda1e2a
+
+
+
 
 ## Installation
 Create a tampermonkey script
-<img width="1248" alt="iShot_2024-03-25_14 43 12" src="https://github.com/kivvi3412/Claude_Latex_Renderer/assets/64115433/03b4c0ce-0e7d-4653-ad5b-8971e7b0b460">
+<img width="1248" alt="iShot_2024-03-25_16 39 30" src="https://github.com/kivvi3412/Claude_Latex_Renderer/assets/64115433/98466650-9b0f-47e3-91f3-eb8a63838889">
+
 
 ## Code
 ```js
@@ -15,7 +22,7 @@ Create a tampermonkey script
 // @namespace    http://tampermonkey.net/
 // @version      0.4
 // @description  Render LaTeX math formulas on the page using MathJax
-// @match        *://*/*
+// @match        https://claude.ai/*
 // @grant        none
 // ==/UserScript==
 
