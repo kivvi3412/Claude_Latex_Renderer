@@ -13,7 +13,7 @@ Create a tampermonkey script
 // ==UserScript==
 // @name         MathJax Renderer
 // @namespace    http://tampermonkey.net/
-// @version      0.4
+// @version      1.0
 // @description  Render LaTeX math formulas on the page using MathJax
 // @match        https://claude.ai/*
 // @grant        none
@@ -62,9 +62,7 @@ Create a tampermonkey script
 
             if (elements.length > 0) {
                 // 对每个元素进行渲染
-                for (var i = 0; i < elements.length; i++) {
-                    MathJax.Hub.Queue(["Typeset", MathJax.Hub, elements[i]]);
-                }
+                MathJax.Hub.Queue(["Typeset", MathJax.Hub, elements]);
             }
         }
     }
