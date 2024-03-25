@@ -9,7 +9,7 @@ Create a tampermonkey script
 <img width="1248" alt="iShot_2024-03-25_14 43 12" src="https://github.com/kivvi3412/Claude_Latex_Renderer/assets/64115433/03b4c0ce-0e7d-4653-ad5b-8971e7b0b460">
 
 ## Code
-```
+```js
 // ==UserScript==
 // @name         MathJax Renderer
 // @namespace    http://tampermonkey.net/
